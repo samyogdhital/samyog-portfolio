@@ -9,6 +9,8 @@ import todolistLg from "../../../Assets/img/Portfolio items/img/todolist700.jpg"
 import todolistSm from "../../../Assets/img/Portfolio items/img/todolist400.jpg";
 import blogLg from "../../../Assets/img/Portfolio items/img/blog700.jpg";
 import blogSm from "../../../Assets/img/Portfolio items/img/blog400.jpg";
+import chatLg from "../../../Assets/img/Portfolio items/img/chat700.jpg";
+import chatSm from "../../../Assets/img/Portfolio items/img/chat400.jpg";
 
 import ProjectItem from "./ProjectItem";
 
@@ -22,29 +24,29 @@ const ProjectContainer = () => {
       alt: "CryptoChecker",
       heading: "CryptoChecker",
       p1: "CryptoChecker displaying different coin data.",
-      l1: "",
+      l1: "https://github.com/samyog-dhital/cryptocurrency",
       a1: "Github page for a project.",
-      l2: "",
+      l2: "https://www.samratdhital.com.np/",
       a2: "CryptoChecker app live website.",
     },
     {
-      image: [portfolioSm, portfolioLg],
-      alt: "Portfolio website",
-      heading: "Portfolio",
-      p1: "My portfolio website.",
-      l1: "",
+      image: [chatSm, chatLg],
+      alt: "Realtime Chat App",
+      heading: "Realtime Chat App",
+      p1: "An app that lets you chat with others through websocket.",
+      l1: "https://github.com/samyog-dhital/react-chat-original",
       a1: "Github page for a Portfolio website project.",
-      l2: "",
+      l2: "https://www.basantaregmi.com.np/",
       a2: "Portfolio project live website.",
     },
     {
       image: [todolistSm, todolistLg],
       alt: "Todolist website",
-      heading: "Todolist",
-      p1: "Todolist website with backend and database.",
-      l1: "",
+      heading: "Goal Tracker",
+      p1: "An app that lets you track your work.",
+      l1: "https://github.com/samyog-dhital/GoalTracker",
       a1: "Github page for a project.",
-      l2: "",
+      l2: "https://samyog-todo.herokuapp.com/",
       a2: "Todolist project live website.",
     },
     {
@@ -52,9 +54,9 @@ const ProjectContainer = () => {
       alt: "Blog website",
       heading: "Blog",
       p1: "Blog website to write simple blogs.",
-      l1: "",
+      l1: "https://github.com/samyog-dhital/simple-blog",
       a1: "Github page for a project.",
-      l2: "",
+      l2: "https://samyog-blog.herokuapp.com/",
       a2: "Blog live website",
     },
   ];

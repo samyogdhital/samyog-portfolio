@@ -1,49 +1,73 @@
 .landing {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .welcome {
-    flex: 1 1 50%;
-    line-height: 1.4;
+  flex: 1 1 50%;
+  line-height: 2;
 }
 
 .welcome h1 span:first-child {
-    font-weight: 500;
-    font-size: 2rem;
+  font-weight: 500;
+  font-size: 2rem;
+  font-family: "Urbanist", sans-serif;
+  letter-spacing: 2px;
 }
 
 .welcome h1 span:last-child {
-    font-size: 4rem;
-    font-weight: 700;
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: "Urbanist", sans-serif;
+  letter-spacing: 2px;
+  outline: none;
+  text-transform: uppercase;
+  background: linear-gradient(
+    135deg,
+    #5335cf 0%,
+    #de005e 25%,
+    #f66e48 50%,
+    #de005e 75%,
+    #5335cf 100%
+  );
+  background-size: 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animate 10s linear infinite;
+}
+@keyframes animate {
+  to {
+    background-position: 400%;
+  }
 }
 
 .welcome h2 {
-    font-weight: 400;
-    font-size: 1.5rem;
-    line-height: 1.4;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 3;
+  font-family: "Urbanist", sans-serif;
 }
 
 .avatar {
-    flex: 1 1 20%;
+  flex: 1 1 20%;
 }
 
 @media only screen and (max-width: 576px) {
-    .landing {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .avatar {
-        display: none;
-    }
-    .welcome {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin: auto;
-    }
+  .landing {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .avatar {
+    display: none;
+  }
+  .welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+  }
 }

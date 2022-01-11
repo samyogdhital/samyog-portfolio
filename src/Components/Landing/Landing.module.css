@@ -24,11 +24,11 @@
   outline: none;
   text-transform: uppercase;
   background: linear-gradient(
-    135deg,
-    #47cf35 0%,
+    -90deg,
+    rgba(113, 46, 255, 0.9) 0%,
     #de005e 25%,
-    #f66e48 50%,
-    #1600de 75%,
+    #d348f6 50%,
+    #de5900 75%,
     #ffffff 100%
   );
   background-size: 400%;
